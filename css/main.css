@@ -13,18 +13,22 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #d7ffb2;
-  font: 300 16px roboto, sans-serif;
-  font-size: small;
+  background-color: #FAFFC1;
+  font: 300 1.6em roboto, sans-serif;
   text-align: center;
   color: #4b5646;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-size: 100%;
+  font-family: "Josefin Slab", serif;
+  font-weight: 400;
+}
 
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+h1, h2 { margin-bottom: 1em; }
+h1 { font-size: 2em;}
+header{padding: 2em 0 0.5em 0; }
+p { margin: 1rem 0; }
 
 a         { color: #1dcaff; }
 a:hover   { color: #fff; }
@@ -35,18 +39,28 @@ a:visited { color: #1dcaff; }
 /* Home
 /*
 /*****************************************************************************/
-article#intro, article#touch {
+
+
+article {
   margin: 0 auto;
-  padding: 3.2em .65em 1.8em;
-  max-width: 23.5em;
-  font-size: 2.6em;
-}
-article#touch {
   padding: 1.5em .65em 1.8em;
+  max-width: 38em;
+}
+
+article h2 {
+  font-size: 1.2em;
+}
+
+article h3 {
+  font-size: 0.85em;
+  margin-top: 1em;
+}
+article p {
+  margin-top: 0em;
 }
 
 
-.box:nth-child(1) {
+.box:nth-child(1), header {
   background: #fff;
 }
 
