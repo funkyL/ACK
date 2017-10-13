@@ -13,10 +13,14 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FAFFC1;
+  background-color: #fff;
   font: 300 1.6em roboto, sans-serif;
   text-align: center;
   color: #4b5646;
+
+
+
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -58,14 +62,20 @@ article h3 {
 article p {
   margin-top: 0em;
 }
+.box:nth-child(2){
 
 
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-linear-gradient(top,#FAFFC1,#fff);
+    /* For Opera 11.1 to 12.0 */
+    background: -o-linear-gradient(top,#FAFFC1,#fff);
+    /* For Fx 3.6 to 15 */
+    background: -moz-linear-gradient(top,#FAFFC1,#fff);
+    /* Standard syntax */
+    background: linear-gradient(to bottom, #FAFFC1,#fff);
+
+
+}
 .box:nth-child(1), header {
   background: #fff;
 }
-
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
